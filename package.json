@@ -1,15 +1,11 @@
 {
-  "name": "eosio-explorer",
+  "name": "explorer-test",
   "version": "0.3.0",
   "license": "MIT",
-  "author": "block.one",
-  "repository": "https://github.com/EOSIO/eosio-explorer",
+  "author": "Matthew Kelly",
+  "repository": "https://github.com/mjk90/eosio-explorer",
   "contributors": [
-    "Terry Leung",
-    "Jonathan Cardenas",
-    "Varsha Nagaraja",
-    "Matthew Kelly",
-    "Ajay Matharu"
+    "Matthew Kelly"
   ],
   "description": "A full web application to communicate with EOSIO blockchain in a local development environment",
   "dependencies": {
@@ -66,7 +62,8 @@
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "serve": "node pm2.js",
-    "eosio-explorer": "./cli.sh"
+    "eosio-explorer": "./cli.sh",
+    "postinstall": "yarn link react-scripts"
   },
   "browserslist": [
     ">0.2%",
