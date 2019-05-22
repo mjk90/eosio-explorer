@@ -50,6 +50,9 @@
     "terminal-in-react": "^4.3.1",
     "pm2": "^3.5.0"
   },
+  "resolutions": {
+    "react-scripts": "2.1.5"
+  },
   "bin": {
     "eosio-explorer": "./cli.sh"
   },
