@@ -1,6 +1,6 @@
 {
   "name": "explorer-test",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "license": "MIT",
   "author": "Matthew Kelly",
   "repository": "https://github.com/mjk90/eosio-explorer",
@@ -54,6 +54,9 @@
     "react-scripts": "2.1.5",
     "**/react-scripts": "2.1.5"
   },
+  "bundledDependencies": [
+    "react-scripts"
+  ],
   "bin": {
     "eosio-explorer": "./cli.sh"
   },
